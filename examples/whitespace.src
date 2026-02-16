@@ -1,0 +1,17 @@
+// Различные варианты пробельных символов
+fn main(){int x=0;int y=0;x=1;y=2;return x+y;}
+
+// Смешанные пробелы
+fn    main    (    )    {
+    int     spaced    =    42    ;
+    int	tabbed	=	100	;	// Табуляции
+    int mixed =   	50  	;	// Смесь
+    
+    // Разные отступы
+        int indent1 = 1;
+            int indent2 = 2;
+                int indent3 = 3;
+    int outdent = 4;
+    
+    return 0;
+}

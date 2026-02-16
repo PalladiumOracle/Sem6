@@ -1,0 +1,14 @@
+// Незакрытые строки
+fn main() {
+    string s1 = "Hello world;  // Нет закрывающей кавычки
+    string s2 = "This string
+        spans multiple lines
+        but never closes;
+    
+    string s3 = "Строка без кавычки в конце;
+    
+    // Правильная строка
+    string correct = "Это правильная строка";
+    
+    return 0;
+}
